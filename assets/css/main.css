@@ -1,0 +1,269 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic|Playfair+Display+SC:400,700&subset=latin,cyrillic);
+
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: rgba(0, 0, 0, 0.726);
+}
+
+.body{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+a {
+    color: #7c9ab7;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #222222;
+}
+label{
+    font-family: 'Playfair Display SC', serif;
+}
+
+.nameimg{
+    height: 30px;
+    font-size: 16px;
+    font-family: 'Playfair Display SC', serif;
+}
+.newsa{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: max-content;
+}
+
+form {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: max-content;
+}
+
+.newinput {
+    margin: 0.625rem 0;
+    padding: 0.625rem;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+textarea{
+    margin: 0.625rem 0;
+    padding: 0.625rem;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+button {
+    padding: 0.625rem;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+}
+
+.error {
+    border-bottom: 2px solid #ff4332;
+}
+
+.msg {
+    border: 2px solid #fff;
+    border-radius: 3px;
+    padding: 0.625rem;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    bottom: -20px;
+    left: 20%;
+    right: 20%;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.none {
+    display: none;
+}
+
+.logout {
+    color: #b7625c;
+    font-weight: bold;
+    font-size: 23px;
+    margin-right: 2rem;
+}
+.logout:hover{
+    opacity: 0.7;
+}
+.relative{
+    display: flex;
+    gap: 0.938rem;
+   
+}
+.colorName{
+    color: #ffffff;
+}
+.card{
+    display: flex;
+    gap: 0.938rem;
+    background-color: #554f66c0;
+}
+.card2{
+    background-color: #554f66c0;
+}
+.card3{
+    background-color: #554f66c0;
+}
+.buttonSend{
+    background-color: #554f66c0;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.content__send{
+    margin-top: 20px;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column
+}
+.gap-15{
+    gap: 0.938rem;
+}
+.error_p{
+    color: #ff4332;
+}
+.containter > .card{
+    width: auto;
+    padding: 1.5rem  1.5rem 1.5rem 1.5rem;
+    border-radius: 2em;
+    border: 1px solid rgb(255, 255, 255);
+}
+.containter > .card2{
+    width: auto;
+    padding: 1.5rem 1.5rem  3rem 1.5rem;
+    border-radius: 2em;
+    border: 1px solid rgb(255, 255, 255);
+}
+.containter > .card3{
+    width: auto;
+    padding: 1.5rem 1.5rem  3rem 1.5rem;
+    border-radius: 2em;
+    border: 1px solid rgb(255, 255, 255);
+}
+.containter__content{
+    display: flex;
+    gap: 0.9rem;
+}
+.containter__content > p {
+    word-wrap: break-word;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+.containter > h1{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: normal;
+}
+.containter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+   
+}
+
+button[name="reject"]{
+    background-color: rgb(218, 108, 108);
+}
+button[name="accept"]{
+    
+    background-color: rgb(165, 218, 113);
+}
+.status{
+    flex-direction: column;
+    display: flex;
+}
+.status > button {
+    background-color: #bbe98fa1;
+}
+.main_user{
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #222222;
+    display: flex;
+    flex-direction:column;
+}
+@media screen and (min-width: 768px){
+    .main_user{
+        justify-content: space-around;
+        align-items: baseline;
+    }
+}
+.profile_content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2rem;
+   
+    border-bottom: 2px solid black;
+}
+
+.containter_img{
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover ;
+}
+.containter_img > img{
+   border-radius: 1rem;
+}
+
+.switch-menu{
+    display: flex; 
+    gap: 15px;
+}
+.switch-menu > p{
+    cursor: pointer;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+button{
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #222222;
+}
+.sentContent{
+    display: flex;
+    flex-direction: column;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #aff56e;
+}
+
+.no-border {
+    border-bottom: none;
+}
